@@ -1,0 +1,63 @@
+body {
+    margin: 0px;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.main {
+    margin: 50px auto;
+    width: 900px;
+    background-color: white;
+}
+
+.layout {
+    display: flex;
+
+}
+
+.v-align{
+    align-items: center;
+}
+
+.header div:last-child {
+    margin-left: auto;
+
+}
+
+.p-1 {
+    padding: 20px;
+}
+
+.header {
+    padding: 20px;
+
+}
+
+img {
+    size: 100%;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.logo {
+    font-size: 3em;
+}
+
+.title {
+    padding-left: 15px;
+}
+
+.title h1, 
+.title h2 {
+    font-size: 1.6em;
+}
+.title h2 {
+    font-weight: 500;
+}
+
+.options-btn {
+    font-size: 3em;
+}
