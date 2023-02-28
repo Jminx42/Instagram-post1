@@ -1,13 +1,16 @@
-body {
+*{
     margin: 0px;
+    padding: 0px;
+}
+
+body {
     background-color: black;
     font-family: 'Roboto', sans-serif;
-
 }
 
 .main {
     margin: 50px auto;
-    width: 900px;
+    width: 800px;
     background-color: white;
 }
 
@@ -16,30 +19,47 @@ body {
 
 }
 
-.v-align{
+.v-align {
     align-items: center;
 }
 
-.header div:last-child {
-    margin-left: auto;
-
+ul li{
+    list-style-type: none;
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
 
 .p-1 {
     padding: 20px;
 }
-
-.header {
-    padding: 20px;
-
+.description{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1.3em;
 }
 
-img {
-    size: 100%;
+p{
+    font-size: 1.3em;
+    padding-bottom: 15px;
+}
+.image{
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
 }
 
-ul li{
-    list-style-type: none;
+
+.header div:last-child {
+    margin-left: auto;
+
+}
+.content-likes {
+    font-size: 3.5em;
+    
+}
+
+ul li:last-child{
+    margin-left: auto;
 }
 
 .logo {
@@ -54,6 +74,7 @@ ul li{
 .title h2 {
     font-size: 1.6em;
 }
+
 .title h2 {
     font-weight: 500;
 }
@@ -61,3 +82,5 @@ ul li{
 .options-btn {
     font-size: 3em;
 }
+
+
