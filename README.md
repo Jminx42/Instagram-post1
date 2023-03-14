@@ -1,30 +1,57 @@
-# ![4Geeks Logo](http://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16) HTML Hello
+<!-- hide -->
+# The Instagram Post
+<!-- endhide -->
+Instagram is one of the most popular user interfaces in the world, this is the first of three exercises that will make you replicate the most important and difficult parts of Instagram.com
 
-The most basic boilerplate for any 4Geeks Academy student, start your very first website from scratch.
+In this case, we are starting with a single post.
 
-> There is a view tutorial on [how to use this template to create your very first website here](https://youtu.be/dfbDCMu_p-0).
+## 🌱  How to start this project
 
-## What to do next?
+Do not clone this repository.
 
-Create an `index.html` file with the [basic HTML structure](http://4geeks.com/lesson/what-is-html-learn-html#page-structure) and see it live by running a web-server using the following command:
+a) If using Gitpod (recommended) you can clone the boilerplate by [clicking here](https://gitpod.io#https://github.com/4GeeksAcademy/html-hello).
 
-```sh
-$ pip3 install flask && python3 server.py
+b) If working locally type the following command from your command line: 
+
+```
+$ git clone https://github.com/4GeeksAcademy/html-hello
 ```
 
-- You can create as many HTML files as you want
-- You can also create CSS files and import them into your website using a `<link>` tag placed between the `<head></head>` tags, like this:
+💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
 
-```html
-<head>
-  ...
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```
 
-### Contributors
+## Instructions
 
-This template was built as part of the [Full Stack Developer course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer) at [4Geeks Academy Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and [many other contributors](https://github.com/4GeeksAcademy/html-hello/graphs/contributors).
+Create the HTML and CSS needed to replicate [this exact same picture](https://github.com/breatheco-de/exercise-instagram-post/blob/master/preview.png?raw=true).
 
-You can find other templates and resources like this at the [school github page](https://github.com/4geeksacademy/).
+<p align="center"><img src="https://github.com/breatheco-de/exercise-instagram-post/blob/master/preview.png?raw=true" height="300" /></p>
+
+## Strategy
+
+Start by identifying which html `<tags>` you can use for the website, like `<div>`, `<p>`, etc. 
+
+Here is a quick visual hint on a good strategy:
+
+![Strategy for instagram post](https://github.com/breatheco-de/exercise-instagram-post/blob/master/strategy.gif?raw=true)
+
+To make your post look like the sample, you will need to use a Roboto-type font from Google Fonts and icons from Font Awesome:
+
+- [https://fonts.google.com/](https://fonts.google.com/)
+- [https://fontawesome.com/](https://fontawesome.com/) ⚠️ Important: [import font-awesome from a CDN](https://www.bootstrapcdn.com/fontawesome/) instead of the main website (ask the teacher for details if you need them)
+
+
+## What to do if you are stuck?
+
+Ask the instructor or classmates right away. Do not stay stuck for more than 15 min because this is one of your first exercises and you are not expected to know everything. Ask questions!!!
+
+## Fundamentals
+This exercise covers the following fundamentals:
+
+1. The basic structure for every HTML5 website.
+2. The `<link>` tag to import CSS Rules.
+3. Using google fonts.
+3. Using the different selectors available in CSS.
+4. Working with boxes: border, padding and margins.
+5. Overflow.
+6. Using Flex vs Position vs Float vs Display.
+7. Using a simple form.
